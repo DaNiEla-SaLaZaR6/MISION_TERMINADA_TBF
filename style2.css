@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.contenedor_red{
+    height: 100%;
+    width: 25%;
+    background-color: brown;
+}
+
+.icon {
+    display: inline-block;
+    width: 3em;
+    height: 3em;
+    stroke-width: 0;
+    margin-top: 20px;
+
+    color: brown;
+    stroke: currentColor;
+    fill: currentColor;
+}
+.contenedor_major{
+    height: 80%;
+    width: 80%;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+.primero{
+    display: flex;
+    height: 20%;
+    width: 80%;
+    gap: 400px;
+    margin-left: 20px;
+}
+
+.boton{
+    background-color: white;
+    border: solid 1px white;
+    height: 80px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton:hover{
+    background-color: rgba(165, 42, 42, 0.089);
+}
+
+h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+
+.contenedor_one{
+    width: 80%;
+    height: 20%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.nombre{
+    height: 60%;
+    width:99%;
+}
+
+.contenedor_two{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.area{
+    height: 60%;
+    width: 43%;
+}
+
+.contenedor_tree{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.direccion{
+    height: 60%;
+    width: 90%;
+}
+
+.contenedor_four{
+    width: 100%;
+    height: 20%;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
+.email{
+    height: 60%;
+    width: 90%;
+}
+
+input{
+    border: solid 2px rgb(235, 40, 235);
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+.buton{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.buton a {
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    height: 50%;
+    width: 20%;
+    border-radius: 20px;
+    background-color: brown;
+    border: solid 1px brown;
+    font-size: 20px;
+    color: white;
+}
+
+button:hover{
+    background-color: rgba(165, 42, 42, 0.658);
+}
+.trojo{
+    color: red;
+}
